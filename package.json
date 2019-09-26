@@ -1,5 +1,5 @@
 {
-  "name": "hanlp",
+  "name": "@ersinfotech/hanlp",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,6 @@
   "author": "chandre",
   "license": "ISC",
   "dependencies": {
-    "java": "^0.9.0"
+    "java": "^0.11.1"
   }
 }

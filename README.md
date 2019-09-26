@@ -2,7 +2,7 @@ HanLP v1.5.0 自然语言处理 for nodejs
 =====
 * 支持中文分词（N-最短路分词、CRF分词、索引分词、用户自定义词典、词性标注），命名实体识别（中国人名、音译人名、日本人名、地名、实体机构名识别），关键词提取，自动摘要，短语提取，拼音转换，简繁转换，文本推荐，依存句法分析（MaxEnt依存句法分析、CRF依存句法分析）
 * 官方文档：[https://github.com/hankcs/HanLP/blob/master/README.md](https://github.com/hankcs/HanLP/blob/master/README.md)
-* 修改 java 源码添加 init 方法,自定义引入 hanLP.proerties 配置文件路径
+* 修改 java 源码添加 init 方法,自定义引入 hanLP.properties 配置文件路径
 
 
 ### 环境要求
@@ -23,7 +23,7 @@ const Hanlp = require("hanlp");
 
 //分词库初始化及配置
 const HanLP = new Hanlp({
-	proerties : "/root/hanlp/hanlp.properties", //配置文件绝对路径，
+	properties : "/root/hanlp/hanlp.properties", //配置文件绝对路径，
 	CustomDict : true, //使用自定义词典
 	NameRecognize : true, //中国人名识别
 	TranslatedNameRecognize : true , //音译人名识别
